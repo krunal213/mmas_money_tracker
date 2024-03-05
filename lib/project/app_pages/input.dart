@@ -664,7 +664,7 @@ class _DateCardState extends State<DateCard> {
               if (_pc.isPanelOpen) {
                 _pc.close();
               }
-              Navigator.of(context).push(
+              /*Navigator.of(context).push(
                 showPicker(
                     cancelText: getTranslated(context, 'Cancel') ?? 'Cancel',
                     okText: getTranslated(context, 'Ok') ?? 'Ok',
@@ -679,7 +679,7 @@ class _DateCardState extends State<DateCard> {
                           selectedTime = value;
                           model.time = value.format(context);
                         })),
-              );
+              );*/
             },
             child: Text(
               model.time!,
